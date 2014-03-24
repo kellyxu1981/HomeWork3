@@ -19,6 +19,18 @@
 		B8BC9F1E18DBFADD00CBAD78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BC9F0618DBFADD00CBAD78 /* UIKit.framework */; };
 		B8BC9F2618DBFADD00CBAD78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F2418DBFADD00CBAD78 /* InfoPlist.strings */; };
 		B8BC9F2818DBFADD00CBAD78 /* HomeWork3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F2718DBFADD00CBAD78 /* HomeWork3Tests.m */; };
+		B8BC9F3418DBFAF300CBAD78 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F3218DBFAF300CBAD78 /* MainViewController.m */; };
+		B8BC9F3518DBFAF300CBAD78 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F3318DBFAF300CBAD78 /* MainViewController.xib */; };
+		B8BC9F3918DC05FD00CBAD78 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F3718DC05FD00CBAD78 /* SearchViewController.m */; };
+		B8BC9F3A18DC05FD00CBAD78 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F3818DC05FD00CBAD78 /* SearchViewController.xib */; };
+		B8BC9F3E18DC063200CBAD78 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F3C18DC063200CBAD78 /* ComposeViewController.m */; };
+		B8BC9F3F18DC063200CBAD78 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F3D18DC063200CBAD78 /* ComposeViewController.xib */; };
+		B8BC9F4318DC064D00CBAD78 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F4118DC064D00CBAD78 /* AccountViewController.m */; };
+		B8BC9F4418DC064D00CBAD78 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F4218DC064D00CBAD78 /* AccountViewController.xib */; };
+		B8BC9F4818DC065E00CBAD78 /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F4618DC065E00CBAD78 /* TrendingViewController.m */; };
+		B8BC9F4918DC065E00CBAD78 /* TrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F4718DC065E00CBAD78 /* TrendingViewController.xib */; };
+		B8BC9F4D18DC0E7B00CBAD78 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9F4B18DC0E7B00CBAD78 /* HomeViewController.m */; };
+		B8BC9F4E18DC0E7B00CBAD78 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9F4C18DC0E7B00CBAD78 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,24 @@
 		B8BC9F2318DBFADD00CBAD78 /* HomeWork3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork3Tests-Info.plist"; sourceTree = "<group>"; };
 		B8BC9F2518DBFADD00CBAD78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8BC9F2718DBFADD00CBAD78 /* HomeWork3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork3Tests.m; sourceTree = "<group>"; };
+		B8BC9F3118DBFAF300CBAD78 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B8BC9F3218DBFAF300CBAD78 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B8BC9F3318DBFAF300CBAD78 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B8BC9F3618DC05FD00CBAD78 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B8BC9F3718DC05FD00CBAD78 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		B8BC9F3818DC05FD00CBAD78 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		B8BC9F3B18DC063200CBAD78 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		B8BC9F3C18DC063200CBAD78 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		B8BC9F3D18DC063200CBAD78 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		B8BC9F4018DC064D00CBAD78 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		B8BC9F4118DC064D00CBAD78 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		B8BC9F4218DC064D00CBAD78 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		B8BC9F4518DC065E00CBAD78 /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
+		B8BC9F4618DC065E00CBAD78 /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
+		B8BC9F4718DC065E00CBAD78 /* TrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendingViewController.xib; sourceTree = "<group>"; };
+		B8BC9F4A18DC0E7B00CBAD78 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B8BC9F4B18DC0E7B00CBAD78 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B8BC9F4C18DC0E7B00CBAD78 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +107,25 @@
 		B8BC9EF618DBFADD00CBAD78 = {
 			isa = PBXGroup;
 			children = (
+				B8BC9F3118DBFAF300CBAD78 /* MainViewController.h */,
+				B8BC9F3218DBFAF300CBAD78 /* MainViewController.m */,
+				B8BC9F3318DBFAF300CBAD78 /* MainViewController.xib */,
+				B8BC9F4A18DC0E7B00CBAD78 /* HomeViewController.h */,
+				B8BC9F4B18DC0E7B00CBAD78 /* HomeViewController.m */,
+				B8BC9F4C18DC0E7B00CBAD78 /* HomeViewController.xib */,
 				B8BC9F0818DBFADD00CBAD78 /* HomeWork3 */,
+				B8BC9F3618DC05FD00CBAD78 /* SearchViewController.h */,
+				B8BC9F3718DC05FD00CBAD78 /* SearchViewController.m */,
+				B8BC9F3818DC05FD00CBAD78 /* SearchViewController.xib */,
+				B8BC9F3B18DC063200CBAD78 /* ComposeViewController.h */,
+				B8BC9F3C18DC063200CBAD78 /* ComposeViewController.m */,
+				B8BC9F3D18DC063200CBAD78 /* ComposeViewController.xib */,
+				B8BC9F4018DC064D00CBAD78 /* AccountViewController.h */,
+				B8BC9F4118DC064D00CBAD78 /* AccountViewController.m */,
+				B8BC9F4218DC064D00CBAD78 /* AccountViewController.xib */,
+				B8BC9F4518DC065E00CBAD78 /* TrendingViewController.h */,
+				B8BC9F4618DC065E00CBAD78 /* TrendingViewController.m */,
+				B8BC9F4718DC065E00CBAD78 /* TrendingViewController.xib */,
 				B8BC9F2118DBFADD00CBAD78 /* HomeWork3Tests */,
 				B8BC9F0118DBFADD00CBAD78 /* Frameworks */,
 				B8BC9F0018DBFADD00CBAD78 /* Products */,
@@ -220,7 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8BC9F0D18DBFADD00CBAD78 /* InfoPlist.strings in Resources */,
+				B8BC9F3518DBFAF300CBAD78 /* MainViewController.xib in Resources */,
+				B8BC9F3A18DC05FD00CBAD78 /* SearchViewController.xib in Resources */,
+				B8BC9F3F18DC063200CBAD78 /* ComposeViewController.xib in Resources */,
+				B8BC9F4918DC065E00CBAD78 /* TrendingViewController.xib in Resources */,
+				B8BC9F4418DC064D00CBAD78 /* AccountViewController.xib in Resources */,
 				B8BC9F1518DBFADD00CBAD78 /* Images.xcassets in Resources */,
+				B8BC9F4E18DC0E7B00CBAD78 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BC9F4818DC065E00CBAD78 /* TrendingViewController.m in Sources */,
 				B8BC9F1318DBFADD00CBAD78 /* AppDelegate.m in Sources */,
+				B8BC9F3418DBFAF300CBAD78 /* MainViewController.m in Sources */,
+				B8BC9F3918DC05FD00CBAD78 /* SearchViewController.m in Sources */,
+				B8BC9F3E18DC063200CBAD78 /* ComposeViewController.m in Sources */,
+				B8BC9F4318DC064D00CBAD78 /* AccountViewController.m in Sources */,
 				B8BC9F0F18DBFADD00CBAD78 /* main.m in Sources */,
+				B8BC9F4D18DC0E7B00CBAD78 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 				B8BC9F2D18DBFADD00CBAD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8BC9F2E18DBFADD00CBAD78 /* Build configuration list for PBXNativeTarget "HomeWork3Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +506,7 @@
 				B8BC9F3018DBFADD00CBAD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
