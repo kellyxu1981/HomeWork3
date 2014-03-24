@@ -104,32 +104,38 @@
     frame5.origin.y -= 310;
     frame6.origin.y -= 310;
     
-    [UIView animateWithDuration:0.2 delay:0.1 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.3 delay:0.1 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.textView.alpha = 1;
         self.textView.frame = frame1;
     } completion:nil];
     
-    [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.3 delay:0 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.photoView.alpha = 1;
         self.photoView.frame = frame2;
     } completion:nil];
 
-    [UIView animateWithDuration:0.2 delay:0.1 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.3 delay:0.1 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.quoteView.alpha = 1;
         self.quoteView.frame = frame3;
     } completion:nil];
     
-    [UIView animateWithDuration:0.3 delay:0.3 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.4 delay:0.3 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.linkView.alpha = 1;
         self.linkView.frame = frame4;
     } completion:nil];
     
-    [UIView animateWithDuration:0.2 delay:0.2 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.3 delay:0.2 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.chatView.alpha = 1;
         self.chatView.frame = frame5;
     } completion:nil];
     
-    [UIView animateWithDuration:0.3 delay:0.3 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.4 delay:0.3 usingSpringWithDamping:0.6
+          initialSpringVelocity:0.7 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.videoView.alpha = 1;
         self.videoView.frame = frame6;
     } completion:nil];
