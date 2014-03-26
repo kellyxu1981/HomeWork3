@@ -48,7 +48,6 @@
     //create a custom loading bar
     self.customActivityIndicator = [[UIImageView alloc] initWithFrame:self.loadingView.frame];
 
-    
     self.customActivityIndicator.animationImages = [NSArray arrayWithObjects:[UIImage imageNamed:@"loading1.png"],[UIImage imageNamed:@"loading2.png"],[UIImage imageNamed:@"loading2.png"],nil];
     self.customActivityIndicator.animationDuration = 0.3; // in seconds
     self.customActivityIndicator.animationRepeatCount = 0; // sets to loop
@@ -115,39 +114,7 @@
 }
 
 -(void)homeImageAnimation{
-    self.homeImage.animationImages = [NSArray arrayWithObjects:
-                                      [UIImage imageNamed:@"homeImage1.png"],
-                                      [UIImage imageNamed:@"homeImage2.png"],
-                                      [UIImage imageNamed:@"homeImage3.png"],
-                                      [UIImage imageNamed:@"homeImage4.png"],
-                                      [UIImage imageNamed:@"homeImage5.png"],
-                                      [UIImage imageNamed:@"homeImage6.png"],
-                                      [UIImage imageNamed:@"homeImage7.png"],
-                                      [UIImage imageNamed:@"homeImage8.png"],
-                                      [UIImage imageNamed:@"homeImage9.png"],
-                                      [UIImage imageNamed:@"homeImage10.png"],
-                                      [UIImage imageNamed:@"homeImage11.png"],
-                                      [UIImage imageNamed:@"homeImage12.png"],
-                                      [UIImage imageNamed:@"homeImage13.png"],
-                                      [UIImage imageNamed:@"homeImage14.png"],
-                                      [UIImage imageNamed:@"homeImage15.png"],
-                                      [UIImage imageNamed:@"homeImage16.png"],
-                                      [UIImage imageNamed:@"homeImage17.png"],
-                                      [UIImage imageNamed:@"homeImage18.png"],
-                                      [UIImage imageNamed:@"homeImage19.png"],
-                                      [UIImage imageNamed:@"homeImage20.png"],
-                                      [UIImage imageNamed:@"homeImage21.png"],
-                                      [UIImage imageNamed:@"homeImage22.png"],
-                                      [UIImage imageNamed:@"homeImage23.png"],
-                                      [UIImage imageNamed:@"homeImage24.png"],
-                                      [UIImage imageNamed:@"homeImage25.png"],
-                                      [UIImage imageNamed:@"homeImage26.png"],
-                                      [UIImage imageNamed:@"homeImage27.png"],
-                                      [UIImage imageNamed:@"homeImage28.png"],
-                                      [UIImage imageNamed:@"homeImage29.png"],
-                                      [UIImage imageNamed:@"homeImage30.png"],
-
-                                      nil];
+    self.homeImage.image = [UIImage animatedImageNamed:@"homeImage" duration:1.5];
     self.homeImage.animationDuration = 1.5;
     self.homeImage.animationRepeatCount = 0;
     [self.homeImage startAnimating];
